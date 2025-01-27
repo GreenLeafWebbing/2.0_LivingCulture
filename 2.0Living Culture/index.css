@@ -1,0 +1,45 @@
+.index-body {
+    background-image: url("LC.png");
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.index-body h1 {
+    font-size: 70px;
+}
+.index-body a {
+    font-size: 30px;
+}
+
+.LivingCulture {
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: gray;
+    color: #FFC200;
+    height: 170px;
+}
+.LivingCulture a:hover {
+    color: black;
+}
+.LivingCulture div {
+    word-spacing: 10px;
+}
+
+.lower-container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    display: flex;
+    color: #FFC200;
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: #ffc200;
+    outline: solid;
+}
