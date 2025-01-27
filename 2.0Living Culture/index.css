@@ -8,17 +8,19 @@
 
 .index-body h1 {
     font-size: 70px;
+    color: black;
 }
 .index-body a {
     font-size: 30px;
+    color: white;
+    text-decoration: none;
 }
 
 .LivingCulture {
     text-align: center;
-    justify-content: center;
+    
     justify-items: center;
-    background-color: gray;
-    color: #FFC200;
+    background-color: #ffc200;
     height: 170px;
 }
 .LivingCulture a:hover {
@@ -27,19 +29,30 @@
 .LivingCulture div {
     word-spacing: 10px;
 }
-
+.upper-container {
+    align-items: center;
+}
 .lower-container {
+    display: flex;
+    gap: 10px;
     text-align: center;
     justify-content: center;
-    align-items: center;
 }
 
 .box1 {
     display: flex;
-    color: #FFC200;
+    color: white;
     width: 500px;
     padding: 10px;
     margin: 10px;
     box-shadow: #ffc200;
     outline: solid;
+    columns: 1;
+}
+.box1 button {
+    color: white;
+    background-color: black;
+    font-size: large;
+    font-style: italic;
+    text-decoration: none;
 }
